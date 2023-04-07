@@ -71,11 +71,9 @@ export default function Home() {
                 <div className="icon-rect">
                   <img src={Rectangle.src} />
                 </div>
-                <Image
+                <img
                   src="/images/illustrate.jpg"
                   alt="img"
-                  width={754}
-                  height={512}
                 />
               </>
             }

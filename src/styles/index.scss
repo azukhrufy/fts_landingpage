@@ -25,7 +25,7 @@ main{
 }
 
 .client-section {
-  @apply flex flex-col justify-center xl:flex-row overflow-auto sm:mx-20 items-center mb-24 justify-between gap-9 xl:gap-14;
+  @apply flex flex-col justify-center xl:flex-row overflow-auto sm:mx-32 items-center mb-24 justify-between gap-9 xl:gap-14;
   .text-container{
     @apply lg:items-center xl:items-start;
   }
@@ -38,21 +38,21 @@ main{
 }
 
 .services-section{
-  @apply flex flex-col xl:flex-row px-4 gap-10 xl:pl-16 xl:pr-0 items-center justify-between relative;
+  @apply flex flex-col 2xl:flex-row px-4 gap-10 2xl:pl-16 2xl:pr-0 items-center relative;
   .bg-service{
     @apply hidden md:flex md:absolute md:right-0 md:-z-40;
   }
   .text-container{
-    @apply items-center xl:justify-start z-10 max-w-[396px] xl:mx-10;
+    @apply items-center 2xl:justify-start z-10 max-w-[396px] xl:mx-10;
     h1{
-      @apply text-center xl:text-left;
+      @apply text-center 2xl:text-left;
     }
     h3{
-      @apply text-center xl:text-left;
+      @apply text-center 2xl:text-left;
     }
   }
   .card-container{
-    @apply flex flex-1 flex-row justify-center gap-4 xl:gap-8 xl:ml-10 flex-wrap xl:pr-8;
+    @apply flex flex-col sm:flex-row sm:flex-wrap justify-center 2xl:justify-end gap-4 2xl:gap-8 2xl:ml-40 2xl:max-w-[810px];
   }
 
 }

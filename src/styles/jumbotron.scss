@@ -1,7 +1,7 @@
 .jumbotron {
-  @apply px-2 py-20 flex bg-bg-people bg-basic-5 bg-blend-multiply lg:px-0 lg:bg-none lg:bg-basic-12 items-center text-basic-12 lg:text-basic-1 xl:pl-5 lg:justify-between mt-20 xl:mt-10 xl:gap-4;
+  @apply px-2 py-20 flex bg-bg-people bg-basic-5 bg-blend-multiply lg:px-0 lg:bg-none lg:bg-basic-12 items-center text-basic-12 lg:text-basic-1 xl:pl-5 lg:justify-between mt-20 xl:mt-10 xl:gap-40;
   .jbt-left {
-    @apply flex flex-col items-center justify-center lg:justify-start lg:pl-14 relative lg:max-w-xl;
+    @apply flex flex-col items-center justify-center lg:justify-start lg:pl-14 relative lg:max-w-xl lg:flex-1;
     .text-container {
       h3 {
         @apply text-basic-12 lg:text-brand-subtitle-grey;
@@ -14,7 +14,7 @@
   }
 
   .jbt-right {
-    @apply hidden lg:flex lg:justify-end lg:relative w-fit;
+    @apply hidden lg:flex lg:justify-end lg:relative lg:w-fit lg:flex-1;
 
     img {
       @apply object-cover rounded-bl-[200px] z-10;

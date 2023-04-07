@@ -1,10 +1,10 @@
 .text-container{
     @apply flex flex-col;
     h1{
-        @apply text-4xl text-center font-semibold lg:text-left;
+        @apply text-4xl text-center font-semibold lg:text-left 2xl:text-5xl;
     }
 
     h3{
-        @apply text-base text-brand-subtitle-grey font-light text-center lg:text-left;
+        @apply text-base text-brand-subtitle-grey font-light text-center lg:text-left 2xl:text-lg;
     }
 }
