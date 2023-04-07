@@ -52,7 +52,7 @@ main{
     }
   }
   .card-container{
-    @apply flex flex-col sm:flex-row sm:flex-wrap justify-center 2xl:justify-end gap-4 2xl:gap-8 2xl:ml-40 2xl:max-w-[810px];
+    @apply flex flex-col sm:flex-row sm:flex-wrap justify-center 2xl:justify-end gap-4 2xl:gap-8 2xl:ml-40 2xl:mr-20 2xl:max-w-[810px];
   }
 
 }
