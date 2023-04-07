@@ -1,0 +1,18 @@
+.card{
+    @apply border border-brand-card-border bg-basic-12 shadow-lg p-8 flex flex-col flex-1 justify-center items-center gap-7 max-w-[308px] rounded-3xl z-10;
+
+    .icon-container{
+        @apply p-6 rounded-3xl;
+    }
+
+    .text-container{
+        @apply gap-4;
+        h1{
+            @apply text-base xl:text-2xl text-center;
+        }
+
+        h3{
+            @apply text-sm xl:text-base text-brand-subtitle-grey text-center;
+        }
+    }
+}

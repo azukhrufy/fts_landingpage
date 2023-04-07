@@ -1,0 +1,9 @@
+.btn-container {
+  @apply flex mt-8 z-40 bg-none justify-center lg:justify-start w-full;
+  button {
+    @apply flex items-center px-10 py-5 rounded-[60px] bg-brand-deep-ocean text-basic-12;
+    &:hover {
+      @apply bg-basic-12 text-brand-deep-ocean rounded-[60px] border-2 border-brand-deep-ocean;
+    }
+  }
+}
