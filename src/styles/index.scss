@@ -25,7 +25,7 @@ main{
 }
 
 .client-section {
-  @apply flex flex-col justify-center xl:flex-row overflow-auto sm:mx-32 items-center mb-24 justify-between gap-9 xl:gap-14;
+  @apply flex flex-col justify-center xl:flex-row overflow-auto sm:mx-20 items-center mb-24 justify-between gap-9 xl:gap-14;
   .text-container{
     @apply lg:items-center xl:items-start;
   }
@@ -52,7 +52,7 @@ main{
     }
   }
   .card-container{
-    @apply flex flex-1 flex-row justify-center gap-4 xl:gap-8 xl:ml-40 flex-wrap;
+    @apply flex flex-1 flex-row justify-center gap-4 xl:gap-8 xl:ml-10 flex-wrap xl:pr-8;
   }
 
 }

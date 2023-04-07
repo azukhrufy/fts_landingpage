@@ -1,5 +1,5 @@
 .jumbotron {
-  @apply px-2 py-20 flex bg-bg-people bg-basic-5 bg-blend-multiply lg:px-0 lg:bg-none lg:bg-basic-12 items-center text-basic-12 lg:text-basic-1 xl:pl-10 lg:justify-between mt-20 xl:mt-10;
+  @apply px-2 py-20 flex bg-bg-people bg-basic-5 bg-blend-multiply lg:px-0 lg:bg-none lg:bg-basic-12 items-center text-basic-12 lg:text-basic-1 xl:pl-5 lg:justify-between mt-20 xl:mt-10 xl:gap-4;
   .jbt-left {
     @apply flex flex-col items-center justify-center lg:justify-start lg:pl-14 relative lg:max-w-xl;
     .text-container {
