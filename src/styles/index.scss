@@ -38,7 +38,7 @@ main{
 }
 
 .services-section{
-  @apply flex flex-col 2xl:flex-row px-4 gap-10 2xl:pl-16 2xl:pr-0 items-center relative;
+  @apply flex flex-col 2xl:flex-row px-4 gap-10 2xl:pl-16 2xl:pr-0 items-center justify-center relative;
   .bg-service{
     @apply hidden md:flex md:absolute md:right-0 md:-z-40;
   }
